@@ -5,7 +5,7 @@
 //  5 round game that keeps score and reports a winner or loser at the end.
 
 
-// - store rock paper scissor in array and randomly return one value in game functio
+// - store rock paper scissor in array and randomly return one value in game function
 let computerChoice = ['rock', 'scissors', 'paper'];
 let computerScore = 0;
 let playerScore = 0;
