@@ -29,7 +29,7 @@ function playRound(playerSelection, computerSelection) {
       }
 }
 
-// Check winner and log the winner with score
+// Check winner and logout the winner with score
 function checkWinner() {
   if (computerScore === playerScore) {
     console.log("Its tie!");
