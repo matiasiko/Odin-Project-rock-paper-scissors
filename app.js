@@ -10,7 +10,7 @@ let computerChoice = ['rock', 'scissors', 'paper'];
 let computerScore = 0;
 let playerScore = 0;
 
-//  Check player selection against computer selection
+//  Check player selection against computer selection and update score variables
 function playRound(playerSelection, computerSelection) {
     if (playerSelection === computerSelection) {
         return 'Tie!';
