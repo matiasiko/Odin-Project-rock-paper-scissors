@@ -33,9 +33,9 @@ function checkWinner() {
   if (computerScore === playerScore) {
     console.log("Its tie!");
   } else if (computerScore > playerScore) {
-    console.log(`Computer got ${computerScore} and Won! player got ${playerScore}`);
+    console.log(`Computer got ${computerScore} points and Won! player got ${playerScore} points!`);
   } else if (playerScore > computerScore) {
-    console.log(`Player got ${playerScore} and Won! computer got ${computerScore}`);
+    console.log(`Player got ${playerScore} points and Won! computer got ${computerScore} points!`);
   }
 }
 
