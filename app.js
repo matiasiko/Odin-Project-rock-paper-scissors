@@ -5,7 +5,6 @@
 //  5 round game that keeps score and reports a winner or loser at the end.
 
 
-// - store rock paper scissor in array and randomly return one value in game function
 let computerChoice = ['rock', 'scissors', 'paper'];
 let computerScore = 0;
 let playerScore = 0;
@@ -40,20 +39,16 @@ function checkWinner() {
   }
 }
 
-// 5 round game that keeps score and reports a winner or loser at the end.
+// 5 round game that keeps score and reports a winner or loser at the end of function.
 function game() {
     for(let i = 0; i < 5; i++) {
-        // Ask user input
         let playerSelection = prompt("Rock, Paper or Scissors?").toLocaleLowerCase();
         //randomly return one value from computerChoice Array
         computerSelection = computerChoice[Math.floor(Math.random()*computerChoice.length)];
-        // Call the function playRound and update score variable by winner
         playRound(playerSelection, computerSelection);
-        // console.log out the winner of each round
         console.log(`${computerScore} computer`);
         console.log(`${playerScore} player`);
     }
-    // call check winner function  and log out the overall winner of 5 rounds!
     checkWinner();
 }
 
